@@ -7,7 +7,7 @@ services:
     depends_on:
       - redis
   redis:
-    image: 'redis:latest'
+    image: 'redis:6.2'
     ports:
       - "6379:6379"
   redisinsight:
